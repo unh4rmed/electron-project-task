@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Hexlet Task</title>
+</head>
+<body>
+    <button id="addUserBtn">Add new user</button>
+    
+    <table id="usersTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Level</th>
+            </tr>
+        </thead>
+        <tbody id="usersBody">
+        </tbody>
+    </table>
+
+    <div id="userForm" class="hidden">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        
+        <label for="level">Level:</label>
+        <input type="text" id="level" required>
+
+        <button id="submitUserBtn">Submit</button>
+        <button id="cancelBtn">Cancel</button>
+    </div>
+
+    <script src="renderer.js"></script>
+</body>
+</html>

@@ -2,14 +2,15 @@
   "name": "electron-project-task",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "src/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "electron": "electron ."
+    "build": "vite build",
+    "electron": "electron ./src/main.js"
   },
-  "author": "",
+  "author": "unh4rmed",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^33.0.2"
+    "electron": "^33.0.2",
+    "electron-vite": "^2.3.0"
   }
 }
